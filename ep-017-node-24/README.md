@@ -13,7 +13,18 @@ This is using Node 24's native TypeScript handling.
 
 Notably, as of this repo commit, the Node 24 typings are not yet available but there is a WIP PR: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/72589
 
-As such, you'll notice some of the APIs will throw TS errors but that's fine as it'll still work.
+As such, I generated a `node-24.d.ts` file with Copilot based on just the code in the example files, which is enough to remove compiler errors.
+
+> [!WARNING]
+> Do not use the `node-24.d.ts` file as-is, it was simply quicker to use Copilot to generate declarations for example purposes. Wait for the official PR to merge :smile:
+
+To run the typecheck:
+
+```sh
+npm run typecheck
+```
+
+_No, it's not using TypeScript Go_ :sweat_smile:
 
 ## Examples
 
