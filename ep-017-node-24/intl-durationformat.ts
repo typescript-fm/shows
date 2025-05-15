@@ -14,5 +14,6 @@ console.log('fr, long', new Intl.DurationFormat('fr', { style: 'long' }).format(
 // Note: The Temporal API is not yet available in Node 24, so you have to use a polyfill
 // Upvote: https://github.com/nodejs/node/issues/57127
 const temporal = Temporal.Duration.from('PT1H30M');
-console.log('Temporal Duration', temporal.toString());
-console.log('Intl.DurationFormat from Temporal,', new Intl.DurationFormat('en', { style: 'long' }).format(temporal));
+console.log('Intl.DurationFormat from', temporal.toString(), ' => ', 
+  new Intl.DurationFormat('en', { style: 'long' })
+    .format(temporal));
