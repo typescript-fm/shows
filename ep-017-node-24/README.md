@@ -42,6 +42,6 @@ _Summarized with Copilot_
 * **intl-durationformat.ts** - Demonstrates the new `Intl.DurationFormat` API for formatting time durations in a locale-aware way.
 * **float16.ts** - Shows the new `Float16Array` typed array for working with half-precision floating-point numbers.
 * **error.ts** - Demonstrates the new `Error.isError()` method for reliably checking if a value is an Error object.
-* **permission.ts** - Shows Node.js 24's new Permission API, which allows checking if the process has permission to access specific resources like the file system.
+* **permission.ts** - Shows Node.js 24's new Permission API, which allows checking if the process has permission to access specific resources like the file system. Run with `npm run permission` to run with `--permission` flag enabled with `fs.read` for the current directory.
 * **enums.ts** - Demonstrates that Node.js 24's default mode of type stripping does not support TypeScript enums, but you can enable transformation with SWC. Run with `npm run enums` to enable `--experimental-transform-types`.
 
