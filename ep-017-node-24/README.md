@@ -39,7 +39,7 @@ _Summarized with Copilot_
 * **regexp-escape.ts** - Demonstrates the new `RegExp.escape()` static method for safely escaping special characters in regular expressions.
 * **regexp-dupes.ts** - Shows handling of duplicate named capture groups in regular expressions.
 * **promise-try.ts** - Illustrates the new `Promise.try()` method for handling synchronous code that might throw in a Promise chain.
-* **intl-durationformat.ts** - Demonstrates the new `Intl.DurationFormat` API for formatting time durations in a locale-aware way.
+* **intl-durationformat.ts** - Demonstrates the new `Intl.DurationFormat` API for formatting time durations in a locale-aware way. It also works with the upcoming TC39 Stage 3 `Temporal` API.
 * **float16.ts** - Shows the new `Float16Array` typed array for working with half-precision floating-point numbers.
 * **error.ts** - Demonstrates the new `Error.isError()` method for reliably checking if a value is an Error object.
 * **permission.ts** - Shows Node.js 24's new Permission API, which allows checking if the process has permission to access specific resources like the file system. Run with `npm run permission` to run with `--permission` flag enabled with `fs.read` for the current directory.
