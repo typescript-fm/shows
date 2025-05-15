@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc --noEmit",
-    "permission": "node --permission --allow-fs-read=. ./permission.ts"
+    "permission": "node --permission --allow-fs-read=. ./permission.ts",
+    "enums": "node --experimental-transform-types ./enums.ts"
   },
   "keywords": [],
   "author": "",
