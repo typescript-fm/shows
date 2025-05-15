@@ -42,4 +42,5 @@ _Summarized with Copilot_
 * **intl-durationformat.ts** - Demonstrates the new `Intl.DurationFormat` API for formatting time durations in a locale-aware way.
 * **float16.ts** - Shows the new `Float16Array` typed array for working with half-precision floating-point numbers.
 * **error.ts** - Demonstrates the new `Error.isError()` method for reliably checking if a value is an Error object.
+* **permission.ts** - Shows Node.js 24's new Permission API, which allows checking if the process has permission to access specific resources like the file system.
 
