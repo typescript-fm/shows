@@ -1,5 +1,7 @@
 # Episode 17B - Node 24 Deep Dive
 
+🎵 [Listen to the episode](https://typescript.fm/bonus17)
+
 To run the examples:
 
 ```sh
