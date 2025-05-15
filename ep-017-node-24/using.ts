@@ -4,5 +4,16 @@ class Resource {
   }
 }
 
+class AsyncResource {
+  async [Symbol.asyncDispose]() {
+    console.log('Async resource disposed');
+  }
+}
+
+// Calls the dispose method
+// synchronously
 using res = new Resource();
-// Use the resource
+
+// Calls the async dispose method
+// asynchronously
+await using asyncRes = new AsyncResource();
